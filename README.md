@@ -1,0 +1,3 @@
+# lyrics_of_love
+
+This repository contains Jupyter notebooks used to perform K-means clustering and topic modeling on over 140,000 songs from 1950 to 2013. Initially I planned to scrape lyrics off of websites and use APIs - however scraping off of AZ lyrics proved more challenging than anticipated as they limited the number of requests to the domain. I decided to purchase some data for a small fee and load it into MongoDB. After performing some NLP using sklearn, nltk, and gensim, I performed K-means clustering and topic modeling to draw insights in the data. As various lyrical styles fade and develop over time, the topic of love remains consistently the most popular theme over time.  
